@@ -15,7 +15,7 @@ class Vehicle(Driveable):
 
     def accelerate(self):
         self.speed = self.speed + self.gas_tank.get()
-        print('Прискорення до  ' + str(self.speed) + 'км/год')
+        print('Прискорення до ' + str(self.speed) + 'км/год')
 
     def turn(self, side):
         print('Поворот на ' + str(side))
